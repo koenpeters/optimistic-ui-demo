@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --yellow: #f9c53f;
+
+    --orange-50: #fcf9f8;
+    --orange-100: #f9f3f1;
+    --orange-200: #f0e6e2;
+    --orange-300: #e1d2cb;
+    --orange-400: #b89f94;
+    --orange-500: #8b7064;
+    --orange-600: #695147;
+    --orange-700: #553d33;
+    --orange-800: #3b271e;
+    --orange-900: #2a170f;
+    --orange-io: #f28a5d;
+
+    --io-orange-50: #ffffff;
+    --io-orange-100: #fef7f4;
+    --io-orange-200: #fbdcce;
+    --io-orange-300: #f8c1a9;
+    --io-orange-400: #f5a583;
+    --io-orange-500: #f28a5d;
+    --io-orange-600: #ee6429;
+    --io-orange-700: #ce4a11;
+    --io-orange-800: #9a370c;
+    --io-orange-900: #662508;
+    --io-orange-default: #f28a5d;
+
+    --io-blue-50: #d1d9f5;
+    --io-blue-100: #afbeee;
+    --io-blue-200: #9eb0ea;
+    --io-blue-300: #7d94e3;
+    --io-blue-400: #5b79db;
+    --io-blue-500: #3a5dd4;
+    --io-blue-600: #2646b0;
+    --io-blue-700: #1c3382;
+    --io-blue-800: #132358;
+    --io-blue-900: #080f25;
+    --io-blue-default: #3a5dd4;
+
+    --blue-400: #3a5dd4;
+    --blue-500: #2c46a1;
+    --blue-600: #1e306e;
+    --blue-io: #3a5dd4;
+
+    --red-600: #de3535;
+
+    --purple-io: #873170;
+    --io-purple-50: #d997c7;
+    --io-purple-100: #d488bf;
+    --io-purple-200: #c96aaf;
+    --io-purple-300: #be4c9f;
+    --io-purple-400: #a53c89;
+    --io-purple-500: #873170;
+    --io-purple-600: #5e224e;
+    --io-purple-700: #35132c;
+    --io-purple-800: #0c040a;
+    --io-purple-900: #000000;
+    --io-purple-default: #873170;
+
+    --gray-50: #f9fafb;
+    --gray-100: #f9fafc;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+  }
+
+  html {
+    font-family: serif;
+    font-size: inherit;
+  }
+
+  svg {
+    @apply h-6;
+  }
+}

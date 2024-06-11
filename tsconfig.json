@@ -1,0 +1,24 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+    },
+    "esModuleInterop": true,
+    "module": "es2022",
+    "moduleResolution": "node",
+    "target": "es2017",
+    // "types": ["web-bluetooth"] // needed to fix issue: "node_modules/@vueuse/core/index.d.ts(541,15): error TS2304: Cannot find name 'BluetoothLEScanFilter'."
+  },
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/utils/*.ts"],
+  "exclude": ["src/**/*.stories.ts"],
+  "references": [
+    // {
+    //   "path": "./tsconfig.client.json"
+    // },
+    {
+      "path": "./tsconfig.vite-config.json",
+    },
+  ],
+}
