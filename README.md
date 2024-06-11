@@ -14,11 +14,12 @@ Then click on the localhost link in the output of that command to open the websi
 
 ## How to use the demo
 
-There are three pages ni this demo. 
+There are three pages ni this demo.
+
 1. /pessimistic1
 2. /pessimistic2
 3. /optimistic
 
 You can change the server latency by changing the value of ```delayTime``` in the file ```/src/mocks/browser.ts```. 
 
-When using a value of 0 for thus variable you'll see there is no difference in UX between the three pages. When you use a higher value for this variable (eg 2000) then you'll see the difference in UX the two pessimistic pages and the optimistic page.
+When using a value of 0 for this variable you'll see there is no difference in UX between the three pages. When you use a higher value for this variable (eg 2000) then you'll see the difference in UX of the two pessimistic pages and the optimistic page.
